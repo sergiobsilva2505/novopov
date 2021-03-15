@@ -23,7 +23,7 @@ public class VeiculoController {
 		List<Veiculo> lista = veiculoService.findAll();
 		model.addAttribute("veiculos", lista);
 
-		return "veiculos";
+		return "index";
 
 	}
 	

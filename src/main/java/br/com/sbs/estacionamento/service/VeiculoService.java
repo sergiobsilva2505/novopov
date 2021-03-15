@@ -15,7 +15,7 @@ public class VeiculoService  {
 	private VeiculoRepository veiculoRepository;
 	
 	public List<Veiculo> findAll() {
-		List<Veiculo> list = veiculoRepository.findAll();
+		List<Veiculo> list = (List<Veiculo>) veiculoRepository.findAll();
 		return list;
 	}
 

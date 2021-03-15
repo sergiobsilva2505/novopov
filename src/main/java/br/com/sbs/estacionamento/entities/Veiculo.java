@@ -34,7 +34,6 @@ public class Veiculo implements Serializable{
 	private TipoVeiculo tipo;
 
 	public Veiculo() {
-		super();
 	}
 
 	public Integer getId() {
