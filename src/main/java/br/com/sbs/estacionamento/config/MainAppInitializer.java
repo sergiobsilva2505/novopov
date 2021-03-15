@@ -1,4 +1,4 @@
-package config;
+package br.com.sbs.estacionamento.config;
 
 import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
