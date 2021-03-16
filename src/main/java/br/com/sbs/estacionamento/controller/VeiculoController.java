@@ -23,13 +23,13 @@ public class VeiculoController {
 		List<Veiculo> lista = veiculoService.findAll();
 		model.addAttribute("veiculos", lista);
 
-		return "index";
+		return "veiculos";
 
 	}
 	
-	@GetMapping()
-	public String showForm() {
-		return "index";
-	}
+//	@GetMapping()
+//	public String showForm() {
+//		return "index";
+//	}
 
 }

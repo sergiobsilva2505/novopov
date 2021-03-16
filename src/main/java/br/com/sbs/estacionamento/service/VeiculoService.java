@@ -1,5 +1,6 @@
 package br.com.sbs.estacionamento.service;
 
+import java.util.Collections;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,12 +12,14 @@ import br.com.sbs.estacionamento.repository.VeiculoRepository;
 @Service
 public class VeiculoService  {	
 	
-	@Autowired
-	private VeiculoRepository veiculoRepository;
-	
+//	@Autowired
+//	private VeiculoRepository veiculoRepository;
+//	
 	public List<Veiculo> findAll() {
-		List<Veiculo> list = (List<Veiculo>) veiculoRepository.findAll();
-		return list;
+//		List<Veiculo> list = (List<Veiculo>) veiculoRepository.findAll();
+//		return list;
+		
+		return Collections.EMPTY_LIST;
 	}
 
 }
