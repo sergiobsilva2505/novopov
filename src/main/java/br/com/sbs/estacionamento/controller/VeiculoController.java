@@ -9,23 +9,23 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import br.com.sbs.estacionamento.entities.Veiculo;
-import br.com.sbs.estacionamento.service.VeiculoService;
+
 
 @Controller
 @RequestMapping("/veiculos")
 public class VeiculoController {
 	
-	@Autowired
-	private VeiculoService veiculoService;
+//	@Autowired
+//	private VeiculoService veiculoService;
 	
-	@GetMapping
-	public String lista(Model model) {
-		List<Veiculo> lista = veiculoService.findAll();
-		model.addAttribute("veiculos", lista);
-
-		return "veiculos";
-
-	}
+//	@GetMapping
+//	public String lista(Model model) {
+//		List<Veiculo> lista = veiculoService.findAll();
+//		model.addAttribute("veiculos", lista);
+//
+//		return "veiculos";
+//
+//	}
 	
 //	@GetMapping()
 //	public String showForm() {
